@@ -1,0 +1,76 @@
+*
+    box-sizing: border-box
+
+html,
+body
+    height: 100%
+
+body
+    font-family: 'Roboto', sans-serif
+    background: #f9f9f9
+
+img
+    vertical-align: top
+
+//.container
+//    margin: 0 auto
+//    +clearfix
+//
+//    @include breakpoint($mobile, $tablet)
+//        min-width: 320px
+//
+//    @include breakpoint($tablet, $desktop)
+//        width: 768px
+//
+//    @include breakpoint($desktop)
+//        width: 976px
+
+.home
+    text-align: center
+    background: url("../img/bg-home.jpg") center bottom no-repeat
+
+
+.logo
+    display: inline-block
+    width: 71px
+    height: 71px
+    margin: 0 auto
+    background: url("../img/logo.png") no-repeat
+
+
+.heading
+    margin: .75em 0
+    font-size: 24px
+    font-weight: 300
+    text-align: center
+
+
+.content
+    +center
+    text-align: center
+
+.content__heading
+    line-height: 30px
+    letter-spacing: -1px
+
+.content__text
+    margin: 2em 0
+    font-size: 14px
+    font-weight: 500
+
+.content-actions
+    margin-bottom: 20px
+
+    button
+        width: 110px
+        margin: 0 1px
+
+.content-actions__label
+    font-size: 1em
+    font-weight: 700
+    margin: 0 0 1em
+
+.link-skip
+    font-size: 12px
+    font-weight: 500
+    color: $black

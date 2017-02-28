@@ -1,0 +1,33 @@
+.header
+    padding: 0 20px
+    text-align: center
+
+    a
+        color: $black
+        text-decoration: none
+
+    &_base
+        z-index: 2
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        height: 38px
+        font-size: 16px
+        font-weight: 700
+        line-height: 38px
+        background: $white
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3)
+
+    &_home
+        margin: 50px 0 20px
+        font-size: 24px
+        line-height: 1
+        font-weight: 900
+
+.header__location
+    text-transform: uppercase
+
+    .header_home &
+        display: block
+        font-size: 60px
